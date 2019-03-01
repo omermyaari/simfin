@@ -1,0 +1,32 @@
+{
+  "name": "simfin",
+  "version": "1.0.0",
+  "description": "A Node.js, promise based client for SimFin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omermyaari/simfin.git"
+  },
+  "keywords": [
+    "simfin",
+    "fundamental"
+  ],
+  "author": "Omer Yaari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omermyaari/simfin/issues"
+  },
+  "homepage": "https://github.com/omermyaari/simfin#readme",
+  "dependencies": {
+    "joi": "^14.3.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "expect": "^24.1.0",
+    "mocha": "^6.0.2"
+  }
+}

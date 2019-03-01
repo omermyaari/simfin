@@ -1,0 +1,1 @@
+A Node.js promise based client for SimFin.
