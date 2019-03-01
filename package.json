@@ -1,6 +1,6 @@
 {
   "name": "simfin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js, promise based client for SimFin.",
   "main": "index.js",
   "scripts": {
