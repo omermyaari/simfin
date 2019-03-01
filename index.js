@@ -257,7 +257,7 @@ class SimFin {
         let params;
 
         if (error !== null) {
-            return Promise.reject(valid.error);
+            return Promise.reject(error);
         }
 
         if (indicators) {
