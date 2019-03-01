@@ -93,7 +93,7 @@ const simfinParameters = {
         Joi.string().valid(periodTypes),
         Joi.string().regex(/^TTM(-(\d){1,2}(\.(0|25|5|50|75))?)?$/)
     ]),
-    fiscalYear: Joi.number().integer().min(1900).max(2018)
+    fiscalYear: Joi.number().integer().min(1900).max(2019)
 };
 
 //  Company statements request validation schema.
